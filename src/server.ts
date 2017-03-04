@@ -18,7 +18,6 @@ app.use(methodOverride());
 
 RegisterRoutes(app);
 
-/* tslint:disable-next-line */
 let port = 3000;
 console.log('server listening on http://localhost:' + port);
 app.listen(port);
